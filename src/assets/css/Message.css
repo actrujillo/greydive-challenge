@@ -1,0 +1,43 @@
+.message {
+  background: #222;
+  border-radius: 6px;
+  left: 50%;
+  min-width: 320px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+}
+
+.container-message {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: space-around;
+  padding: 10px;
+  width: 100%;
+}
+
+.container-message a,
+.container-message button {
+  width: 30%;
+}
+
+.container-message button {
+  background: #d4145a;
+  border-radius: 6px;
+  border: none;
+  color: #eee;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.container-message button:hover {
+  background: #e73375;
+}
+
+.container-message p{
+  width: 100%;
+  text-align: center;
+}

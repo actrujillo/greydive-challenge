@@ -1,0 +1,19 @@
+@font-face {
+  font-family: Principal;
+  src: url("../fonts/Gotham\ Book.otf");
+}
+
+body {
+  background: #2f2f2f;
+  font-family: Principal;
+  color: #eee;
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+}
+
+a:visited, a:active, a:link{
+  color: #eee;
+  cursor: pointer;
+  text-decoration: none;
+}
